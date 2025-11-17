@@ -33,4 +33,6 @@
   <!-- DNM ; until los2u has its own manifest -->
   <project path="prebuilts/los2u" name="android_prebuilts_los2u" remote="l2u" revision="lineage-22.2" />
 
+  <project path="external/google-fonts/google-sans-flex" name="android_external_google-fonts_google-sans-flex" remote="LOS" revision="lineage-23.2" />
+
 </manifest>
