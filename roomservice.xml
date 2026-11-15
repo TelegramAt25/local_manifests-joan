@@ -16,7 +16,7 @@
   <project path="hardware/sony/timekeep" name="android_hardware_sony_timekeep" remote="LOS" revision="lineage-22.2" />
 
   <!-- kernel tree -->
-  <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="LOS" revision="msg" />
+  <project path="kernel/lge/msm8998" name="android_kernel_lge_msm8998" remote="t25" revision="msg" />
 
   <!-- vendor tree -->
   <project path="vendor/lge/joan" name="proprietary_vendor_lge_joan" remote="mups" revision="lineage-22.2" />
