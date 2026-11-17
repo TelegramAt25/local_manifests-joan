@@ -4,6 +4,7 @@
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="mups" fetch="https://github.com/TheMuppets" />
+  <remote name="l2u" fetch="https://github.com/los2u" />
 
   <!-- device tree -->
   <project path="device/lge/joan" name="android_device_lge_joan" remote="t25" revision="lineage-22.2" />
@@ -23,5 +24,9 @@
 
   <!-- common vendor tree -->
   <project path="vendor/lge/joan-common" name="proprietary_vendor_lge_joan-common" remote="mups" revision="lineage-22.2" />
+
+  <!-- DNM ; until los2u has its own manifest -->
+  <project path="prebuilts/los2u" name="android_prebuilts_los2u" remote="l2u" revision="lineage-22.2" />
+
 
 </manifest>
