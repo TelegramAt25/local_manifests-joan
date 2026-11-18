@@ -5,7 +5,6 @@
   <remote name="ygk" fetch="https://github.com/YumeNoGekkou" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="mups" fetch="https://github.com/TheMuppets" />
-  <remote name="l2u" fetch="https://github.com/los2u" />
 
   <!-- device tree -->
   <project path="device/lge/joan" name="android_device_lge_joan" remote="t25" revision="lineage-22.2" />
@@ -29,8 +28,5 @@
   <!-- the future is bleak -->
   <!-- kill me -->
   <project path="vendor/lge/joan-ims" name="vendor_lge_joan-ims" remote="ygk" revision="lineage-22.2" />
-
-  <!-- DNM ; until los2u has its own manifest -->
-  <project path="prebuilts/los2u" name="android_prebuilts_los2u" remote="l2u" revision="lineage-22.2" />
 
 </manifest>
